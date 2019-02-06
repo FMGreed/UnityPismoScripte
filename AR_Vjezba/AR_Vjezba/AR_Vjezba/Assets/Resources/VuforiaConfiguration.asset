@@ -4,26 +4,25 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Script: {fileID: -2067402452, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AaMO9Vn/////AAABmVfgYWXbt0tOtKd0OHPBWQBeeLmjaeOWrOpt8f0W0ltexgb/IUjjuZkpHn+CgteL6tb8Kem6CqzdUapZYmymDwLfWM5hWKb8OzUdUuiwua0P/OxwRzhEi55cSLD6iAHdL7MMIlUJiQr0CPK8GIB06q9TyshxRXoVr3pqpFshH3llSqc9fG7HiLnzkSMN+QGUIfpU7t88HWIyTTROYF03u+NAcwpj/8SCxYnZOuckLvb+5p6lmnyFDdm22N4zMTre1IQH3hOQrVL6qJYC4P7zev933IeCFO+SSY/pWnAYhOyL+DkaReY7gAozAv/yvnwL0LEI883IabYno7az3Glu3xpMTdfgaYZ5SJY+qPelW0yb
-    ufoLicenseKey: QVltRE01WC8vLy8vQUFBQUtJNFBpOExUUlVUdms4SHBGVU8yclhlR2hWdHFFWjNKQXh2STVDc0hnLzY0c3FyZzNhRDZjbVZsUnBlZmpDTVQzR0pmMGo1L0xJeXZ0RklqaFIwSWRWMnpNZkZWSzJHSENRbjhVcXdyS2cvZTNNQzE3b3hyREtYU281WnBCbHBRU0N1YmphQ1hqMFV5SVpuVkxWUmFza0k0TXJrL0E5U2EzdjZEZkp3S3JzYi81LzRFdUVyVERyNTZxWEd2NFg1TVBNamNxMDg1TUI1bk9CL0U4ZkNHb0M0U1FQeHVBNFlMdkRvQjJialdReStsSFVJd3liNkwxeFVWM2I3Q2lKTERKc2lLemNqa0ZPek1nYWtrdm9zQURCdlI0bno0MkgxTE9ueW8ydUxtdGM4SCs2ZFZHUjVWY0NlWk5CMzdhOFIzdUw4ZzhWeWJ5UCtLVjE0Z0dlbXpESFJ5UDcrZWRhQ3Vldy9obmdhOGdaRkk=
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QVl0djdYai8vLy8vQUFBQUtCUnJyQTducmtNY3BRTi9yRVYybFhwcFAxQ2I0REhtZ0ZJa1gwZ1dIckFVTzdVMCtrczJ1T0s4T2lucHlrSFAwU2ZsazdZUUR6cWhnaDNhN1hmT043aERnc2hkQy82ZVJoNTFnQzlnZGpGQTRyY1g5ZTNRN05ZNWNXdUxJUnpmT05mcjh2eUoxTWczWWlTVnZaQ2hUNGdCTnFWZW9OUEJYbDRkRGxGaFgzNUNrTmhKQ2EvVzhya0NuTE0xeXBUM3ArQS94cERkR2loT3o3c1RybGx6Z1hJaG16OEdFK2VPalJGMS9pQ2RYVFVZUTlIN2s5VmhwVEpBQ2M5WENneEVjMUxiSTUvRDZudzRpSTcxWVZQWDdmMU5ZR3d5U0ZibnJrM0hUVVc0L2dURUFPY1o0ZG50bjRZbXVTREVCTC9BOHJ0VFF5czNPOTFtc1dmOEF0d2ZKdUVxN1VQTUdMOGd1VEpFRU1oK2x2MHo=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 3
-    maxSimultaneousObjectTargets: 3
+    maxSimultaneousImageTargets: 4
+    maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
     mirrorVideoBackground: 0
-    version: 7.5.26
-    eulaAcceptedVersions: '{"Values":["7.2","7.5"]}'
+    version: 8.0.7
+    eulaAcceptedVersions: '{"Values":["7.1","7.2","7.5","7.7","8.0","8.1","0.0"]}'
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
@@ -55,12 +54,11 @@ MonoBehaviour:
   deviceTracker:
     autoInitTracker: 0
     autoStartTracker: 0
-    trackingMode: 1
+    trackingMode: 0
     posePrediction: 0
     modelCorrectionMode: 0
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
-    fusionMode: 7
   smartTerrain:
     autoInitTracker: 0
     autoStartTracker: 0
